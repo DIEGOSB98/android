@@ -1,0 +1,186 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-button (click)="ir_acerca_pagina()">
+        <ion-icon slot="icon-only" name="football"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Jugadores
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="caja_busqueda">
+    <ion-searchbar [(ngModel)]="busqueda" placeholder="Busque jugador" color="success"></ion-searchbar>
+    <ion-button color="success" (click)="enviar_busqueda()">Buscar</ion-button>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="perfil_lm()">
+            <ion-img src="assets/lm.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <p id="nom_jugador">Lionel Messi</p>
+              <div id="contenedor">
+                <ion-img id="icono" src="assets/argentina.ico"></ion-img>
+                <ion-img id="icono" src="assets/fc_barcelona.ico"></ion-img>
+              </div>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/cr.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">C.Ronaldo</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/portugal.ico"></ion-img>
+                  <ion-img id="icono" src="assets/juventus.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/nj.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">Neymar Jr</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/brasil.ico"></ion-img>
+                  <ion-img id="icono" src="assets/psg.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/kd.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">De Bruyne</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/belgica.ico"></ion-img>
+                  <ion-img id="icono" src="assets/man_city.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/sa.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">S.Agüero</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/argentina.ico"></ion-img>
+                  <ion-img id="icono" src="assets/man_city.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/as.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">A.Sanchez</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/chile.ico"></ion-img>
+                  <ion-img id="icono" src="assets/man_united.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/av.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">A.Vidal</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/chile.ico"></ion-img>
+                  <ion-img id="icono" src="assets/fc_barcelona.ico"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col id="columna">
+        <ion-card id="card">
+          <ion-button id="perfil_jugador" color="light" (click)="informacion_p1()">
+            <ion-img src="assets/ep.png"></ion-img>
+          </ion-button>
+          <ion-card-header>
+            <ion-card-title>
+              <ion-card-title>
+                <p id="nom_jugador">A.Paredes</p>
+                <div id="contenedor">
+                  <ion-img id="icono" src="assets/chile.png"></ion-img>
+                  <ion-img id="icono" src="assets/colo_colo.png"></ion-img>
+                </div>
+              </ion-card-title>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>

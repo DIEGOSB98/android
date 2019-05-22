@@ -1,7 +1,5 @@
 {
   "name": "app_epe2",
-  "integrations": {
-    "cordova": {}
-  },
+  "integrations": {},
   "type": "angular"
 }
